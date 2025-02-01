@@ -1,0 +1,126 @@
+.mentor-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  max-width: 300px;
+  margin: 15px;
+}
+
+.mentor-card:hover {
+  transform: translateY(-5px);
+}
+
+.mentor-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin: 0 auto 15px;
+  display: block;
+  object-fit: cover;
+}
+
+.mentor-card h3 {
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+.specialty {
+  color: #666;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+  justify-content: center;
+}
+
+.achievement-badge {
+  background: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+.experience {
+  text-align: center;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.social-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}
+
+.social-link.facebook {
+  background: #1877f2;
+}
+
+.social-link.instagram {
+  background: #e4405f;
+}
+
+.social-link.whatsapp {
+  background: #25D366;
+}
+
+.social-link i {
+  font-size: 1.2em;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.contact-btn, .anonymous-btn {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: 500;
+}
+
+.contact-btn {
+  background: #4CAF50;
+  color: white;
+}
+
+.anonymous-btn {
+  background: #2196F3;
+  color: white;
+}
+
+.contact-btn:hover, .anonymous-btn:hover {
+  opacity: 0.9;
+}
