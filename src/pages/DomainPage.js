@@ -8,21 +8,21 @@ const mentorData = {
   cybersecurity: [
     {
       id: 1,
-      name: "John Doe",
-      expertise: "Network Security",
+      name: "Sana Mohammad Sahi",
+      expertise: "Network Security , Ethical Hacking",
       achievements: "CISSP Certified, 5 years experience"
     },
     {
       id: 2,
-      name: "Jane Smith",
-      expertise: "Ethical Hacking",
+      name: "Aaron Thomas",
+      expertise: "Penetration Tester",
       achievements: "CEH Certified, Security researcher"
     }
   ],
   mern: [
     {
       id: 3,
-      name: "Mike Johnson",
+      name: "Adhitya K B",
       expertise: "Full Stack Development",
       achievements: "Built 10+ MERN applications"
     }
@@ -30,7 +30,7 @@ const mentorData = {
   web3: [
     {
       id: 4,
-      name: "Sarah Wilson",
+      name: "Adwaith Jayashaker",
       expertise: "Blockchain Development",
       achievements: "Created multiple DeFi projects"
     }
@@ -38,7 +38,7 @@ const mentorData = {
   ml: [
     {
       id: 5,
-      name: "David Brown",
+      name: "Sana Mohammad Sahi",
       expertise: "Machine Learning",
       achievements: "Published ML research papers"
     }

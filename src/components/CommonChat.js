@@ -25,13 +25,13 @@ const CommonChat = ({ domainId }) => {
   const onlineMentors = [
     {
       id: 1,
-      name: 'David Brown',
+      name: 'Sana Mohammad Sahi',
       specialty: 'Machine Learning Expert',
       isOnline: true
     },
     {
       id: 2,
-      name: 'Sarah Wilson',
+      name: 'Adwaith Jayashaker',
       specialty: 'Web3 Developer',
       isOnline: true
     }

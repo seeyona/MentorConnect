@@ -8,15 +8,13 @@ import DomainPage from './pages/DomainPage';
 
 // Import Components
 // import Navbar from './components/Navbar';
-import CommonChat from './components/CommonChat';
 import DomainGrid from './components/DomainGrid';
-import DomainSection from './components/DomainSection';
-import MentorCard from './components/MentorCard';
 import MessageModal from './components/MessageModal';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedMentor, setSelectedMentor] = useState(null);
+
 
   const handleMentorSelect = (mentor) => {
     setSelectedMentor(mentor);
@@ -37,9 +35,15 @@ function App() {
           </div>
         </nav>
 
+        <div className="header-section">
+          <h1 className="main-title">TechMentor Connect</h1>
+          <p className="subtitle">Bridge the gap between students and experienced mentors</p>
+        </div>
+
         <main className="main-content">
           <Routes>
             <Route path="/" element={<DomainGrid />} />
+            
             <Route 
               path="/domain/:domainName" 
               element={<DomainPage onMentorSelect={handleMentorSelect} />} 
@@ -47,6 +51,7 @@ function App() {
             <Route path="/community" element={<CommunityPage />} />
           </Routes>
         </main>
+
 
         {isModalOpen && selectedMentor && (
           <MessageModal
