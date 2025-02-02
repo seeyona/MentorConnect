@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+TECH MENTOR SUPPORT 🎯
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Basic Details
+### Team Name: Triluminary
 
-In the project directory, you can run:
 
-### `npm start`
+### Team Members
+- Member 1: Sreelakshmi P.S - SCET
+- Member 2: Seeyona Santhosh - SCET
+- Member 3: Vishnupriya.M.V -SCET
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Hosted Project Link
+https://github.com/seeyona/MentorConnect
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project Description
+TechMentor Connect is a React-based platform designed to create a comfortable, accessible environment for students in college who are interested in tech fields but might feel hesitant to reach out directly to their senior peers. The platform is specifically tailored to students who want guidance in specialized domains like Cybersecurity, MERN Stack, Web3, Machine Learning, and Backend Development.
 
-### `npm test`
+### The Problem statement
+Students often feel shy or hesitant to approach seniors directly for guidance and mentorship.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### The Solution
+A user-friendly platform that allows students to connect with senior mentors in a comfortable and anonymous way, focusing on domains like Cybersecurity, MERN Stack, Web3, and Machine Learning.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technical Details
+### Technologies/Components Used
+- React
+- Javasciript
+- css
+- 
+Libraries:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Redux (for state management)
 
-### `npm run eject`
+Axios (for API requests)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Router (for navigation)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Material-UI (for UI components)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Implementation
+For Software:
+# Installation
 
-## Learn More
+git clone 'link'
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Run
+npm start 
+### Project Documentation
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![1](https://github.com/user-attachments/assets/a705ea53-d485-4bd0-b6bf-375c986414d3)
 
-### Deployment
+![1](https://github.com/user-attachments/assets/59f3d210-78b4-4491-9be4-28f754bcc4d0)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Made with ❤️ at TinkerHub
